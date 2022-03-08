@@ -16,8 +16,8 @@ def brightness(image, circles, size):
 
 
 
-img_gray = cv2.imread('/Users/hadihijazi/OneDrive - Universitat Ramón Llull/Martial Arts/CS50/untitled folder/365 Data Science/python-programmer-bootcamp/19. Capstone/19.1 capstone_coins.png', cv2.IMREAD_GRAYSCALE)
-img = cv2.imread('/Users/hadihijazi/OneDrive - Universitat Ramón Llull/Martial Arts/CS50/untitled folder/365 Data Science/python-programmer-bootcamp/19. Capstone/19.1 capstone_coins.png', 1)
+img_gray = cv2.imread('19.1 capstone_coins.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('19.1 capstone_coins.png, 1)
 img_gray = cv2.GaussianBlur(img_gray,  (5,5), 0)
 
 
